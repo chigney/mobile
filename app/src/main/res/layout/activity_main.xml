@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Craig Higney S1630775 -->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/studnum"/>
+        <Button
+            android:id="@+id/button_incidents"
+            android:layout_width="160dp"
+            android:layout_height="57dp"
+            android:text="Current Incidents"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="86dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/button_roadworks"
+            android:layout_width="157dp"
+            android:layout_height="56dp"
+            android:text="Planned Roadworks"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="159dp"
+            android:layout_height="46dp"
+            android:text="Exit Application"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:text="@string/studnum"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+</android.support.constraint.ConstraintLayout>
